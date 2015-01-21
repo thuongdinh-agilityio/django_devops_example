@@ -22,7 +22,3 @@ django-secure==1.0.1
 # Custom storage backends; using S3
 # http://django-storages.readthedocs.org/en/latest/index.html
 django-storages==1.1.8
-
-# Production WSGI server with workers
-# https://github.com/benoitc/gunicorn
-gunicorn==19.1.1
