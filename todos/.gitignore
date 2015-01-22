@@ -16,6 +16,8 @@ compressed
 *.py[co]
 *.egg*
 .coverage
+local_envs.py
+local_settings.py
 
 # Node.js #
 ###########

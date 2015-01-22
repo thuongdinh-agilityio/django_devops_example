@@ -6,7 +6,6 @@ from .base import *
 
 import os
 
-
 ########## DEBUG CONFIGURATION
 # https://docs.djangoproject.com/en/dev/ref/settings/#debug
 DEBUG = True

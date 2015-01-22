@@ -379,3 +379,11 @@ LOGGING = {
     }
 }
 ########## END LOGGING CONFIGURATION
+
+# Try to import local environment variables
+# local_envs file should contain multilines like below:
+# os.environ.setdefault("ENV_VARIABLE", "ENV_VALUE")
+try:
+    from .local_envs import *
+except:
+    pass
