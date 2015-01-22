@@ -124,3 +124,8 @@ INSTALLED_APPS += (
     'sslserver',
 )
 ########## END SSL SERVER CONFIGURATION
+
+try:
+    from local_settings import *
+except:
+    pass

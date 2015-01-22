@@ -53,3 +53,9 @@ Update chef configuration inside chef-files/roles if needed
 
 	Install chefdk
 	export PATH=/opt/chefdk/bin:$PATH #/opt/chefdk/bin needs to be present before your RBENV bits.
+
+2. Could not install chef-solo with chefdk
+	
+	```
+	chef gem install knife-solo 
+	```
