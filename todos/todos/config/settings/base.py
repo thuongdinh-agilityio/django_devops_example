@@ -72,7 +72,7 @@ THIRD_PARTY_APPS = (
     'django_extensions',
     'django_rq',
     'floppyforms',
-    'pipeline',
+    'pipeline'
 )
 
 PROJECT_APPS = (

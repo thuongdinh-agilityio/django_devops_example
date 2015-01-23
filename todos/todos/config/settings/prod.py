@@ -188,6 +188,6 @@ if 'AWS_ACCESS_KEY_ID' in os.environ:
 ########## END AMAZON S3 CONFIGURATION
 
 try:
-    from local_settings import *
+    from .local_settings import *
 except:
     pass
