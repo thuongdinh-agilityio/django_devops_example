@@ -19,7 +19,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
 	# Uncomment this file if you want to sync the actual source code
 	# from the host machine for development.
-	config.vm.synced_folder "./", "/home/vagrant/repos/todos"
+	config.vm.synced_folder "./", "/home/vagrant/repos/webapp"
 	config.vm.synced_folder "./backup", "/backup"
 
 	config.berkshelf.enabled = true
