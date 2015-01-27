@@ -57,3 +57,6 @@ $RECYCLE.BIN/
 # RSA Key
 id_rsa
 id_rsa.pub
+
+# Python
+*.pyc

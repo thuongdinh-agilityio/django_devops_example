@@ -17,7 +17,7 @@
  - vagrant
  - ruby (gem)
  - xcode command line (Mac OS users)
- - chef-dk (https://downloads.chef.io/chef-dk/)
+ - [chef-dk](https://downloads.chef.io/chef-dk/)
 
 
 ## Usage
@@ -44,7 +44,7 @@ Update chef configuration inside chef-files/roles if needed
 
 ## Deployment
 
-// TODO
+TODO
 
 
 ## Troubleshooting
