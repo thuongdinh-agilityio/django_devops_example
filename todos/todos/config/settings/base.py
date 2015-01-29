@@ -331,24 +331,24 @@ LOGGING = {
             'class': 'config.lib.colorstreamhandler.ColorStreamHandler',
             'formatter': 'simple',
         },
-        'file_log': {
-            'level': 'DEBUG',
-            'filters': ['development_only'],
-            'class': 'logging.handlers.RotatingFileHandler',
-            'filename': join(DJANGO_ROOT, 'logs/log.log'),
-            'maxBytes': 1024 * 1024,
-            'backupCount': 3,
-            'formatter': 'verbose',
-        },
-        'file_sql': {
-            'level': 'DEBUG',
-            'filters': ['development_only'],
-            'class': 'logging.handlers.RotatingFileHandler',
-            'filename': join(DJANGO_ROOT, 'logs/sql.log'),
-            'maxBytes': 1024 * 1024,
-            'backupCount': 3,
-            'formatter': 'verbose',
-        },
+        # 'file_log': {
+        #     'level': 'DEBUG',
+        #     'filters': ['development_only'],
+        #     'class': 'logging.handlers.RotatingFileHandler',
+        #     'filename': join(DJANGO_ROOT, 'logs/log.log'),
+        #     'maxBytes': 1024 * 1024,
+        #     'backupCount': 3,
+        #     'formatter': 'verbose',
+        # },
+        # 'file_sql': {
+        #     'level': 'DEBUG',
+        #     'filters': ['development_only'],
+        #     'class': 'logging.handlers.RotatingFileHandler',
+        #     'filename': join(DJANGO_ROOT, 'logs/sql.log'),
+        #     'maxBytes': 1024 * 1024,
+        #     'backupCount': 3,
+        #     'formatter': 'verbose',
+        # },
         'mail_admins': {
             'level': 'ERROR',
             'filters': ['production_only'],
@@ -365,7 +365,7 @@ LOGGING = {
     'loggers': {
         # Write all SQL queries to a file
         'django.db.backends': {
-            'handlers': ['file_sql'],
+            'handlers': ['default'],
             'filters': ['readable_sql'],
             'level': 'DEBUG',
             'propagate': False,
