@@ -41,7 +41,7 @@ webapp[:db_password] = "django_dev"
 webapp[:celery][:enable_beat] = true
 webapp[:celery][:app_instance] = "config"
 webapp[:celery][:log_level] = "INFO"
-webapp[:celery][:c_force_root] = false # allow force run celery with root account
+webapp[:celery][:c_force_root] = true # allow force run celery with root account
 
 # Supervisor
 # -----------
