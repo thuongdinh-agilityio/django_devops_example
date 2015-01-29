@@ -67,7 +67,7 @@ TEMPLATE_LOADERS = (
 LOGGERS = {
     # Log queue workers to console and file on development
     'rq.worker': {
-        'handlers': ['default', 'file_log'],
+        'handlers': ['default'],
         'level': 'INFO',
         'propagate': False,
     }

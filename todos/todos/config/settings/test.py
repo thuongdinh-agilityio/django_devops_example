@@ -81,13 +81,13 @@ RQ_SHOW_ADMIN_LINK = True
 LOGGERS = {
     # Log queue workers to null but file while testing
     'rq.worker': {
-        'handlers': ['null', 'file_log'],
+        'handlers': ['null'],
         'level': 'INFO',
         'propagate': False,
     },
     # Log nose test runner only INFO level and above
     'nose.plugins.manager': {
-        'handlers': ['default', 'file_log'],
+        'handlers': ['default'],
         'level': 'INFO',
         'propagate': False,
     },

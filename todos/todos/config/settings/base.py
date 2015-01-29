@@ -359,7 +359,7 @@ LOGGING = {
     # Catch-all modules that use logging
     # Writes to console and file on development, only to console on production
     'root': {
-        'handlers': ['console_dev', 'console_prod', 'file_log'],
+        'handlers': ['console_dev', 'console_prod'],
         'level': 'DEBUG',
     },
     'loggers': {
