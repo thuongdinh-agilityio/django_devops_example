@@ -1,9 +1,9 @@
 ::Chef::Recipe.send(:include, WebappHelpers)
 
 # Retry global information from databag
-git_user = git_user()
-git_group = git_group()
-app_name = app_name()
+git_user = get_git_user()
+git_group = get_git_group()
+app_name = get_app_name()
 
 log_dir = "/home/#{git_user}/logs"
 home_dir = "/home/#{git_user}"
