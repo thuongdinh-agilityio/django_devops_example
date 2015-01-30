@@ -13,9 +13,6 @@ from fabric.api import (
 )
 from fabric.colors import green as _green, yellow as _yellow, red as _red
 from fabric.context_managers import hide, show, lcd
-import boto
-import boto.ec2
-from config import Config
 import time
 
 # Read global setting from data bag of chef
