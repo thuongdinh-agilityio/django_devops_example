@@ -387,9 +387,9 @@ def deploy(branch_name="develop", commit_id=None):
     """
     Combine others tasks for deployment purpose.
     """
+    execute(pull, branch_name, commit_id)
     execute(migrate)
     execute(collect_statics)
-    execute(pull, branch_name, commit_id)
     execute(restart)
 
 
