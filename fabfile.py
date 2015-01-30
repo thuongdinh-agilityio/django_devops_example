@@ -17,9 +17,9 @@ import time
 
 # Read global setting from data bag of chef
 # this help sync global env for both chef & fabfile
-env.global_deploy_users = json.load(open("chef_files/data_bags/globals/deploy_users.json"))["raw_data"]
-env.global_deploy_groups = json.load(open("chef_files/data_bags/globals/deploy_groups.json"))["raw_data"]
-env.global_webapp_info = json.load(open("chef_files/data_bags/globals/webapp_info.json"))["raw_data"]
+env.global_deploy_users = json.load(open("./chef_files/data_bags/globals/deploy_users.json"))["raw_data"]
+env.global_deploy_groups = json.load(open("./chef_files/data_bags/globals/deploy_groups.json"))["raw_data"]
+env.global_webapp_info = json.load(open("./chef_files/data_bags/globals/webapp_info.json"))["raw_data"]
 
 # Set default env attributes
 # that help run dev env without run
