@@ -7,7 +7,7 @@ override_attributes(
 		"repo_branch" => "develop",
 		"git_deploy" => false,
 		"databag" => {
-			"encrypted" => false
+			"encrypted" => true
 		},
 		"supervisor" => {
 			"enable_services" => false

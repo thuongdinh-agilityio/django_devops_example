@@ -1,11 +1,15 @@
 {
-   "name":"data_bag_item_dev_envs_aws_access_key",
-   "json_class":"Chef::DataBagItem",
-   "chef_type":"data_bag_item",
-   "data_bag":"dev_envs",
-   "raw_data":{
-      "id":"aws_access_key",
-      "KEY":"AWS_ACCESS_KEY_ID",
-      "VALUE":"AWS_ACCESS_KEY_ID_VALUE"
-   }
+  "id": "aws_access_key",
+  "KEY": {
+    "encrypted_data": "s2EGWGsOLdtAbDIr8LuAQ7PwLVwieeNi+NEX8liPHkeZsu92cbYBJ/E+gSCF\nAhAv\n",
+    "iv": "EusqvkVEaZu38H5yZ+Eulw==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "VALUE": {
+    "encrypted_data": "olS1Pu1EXdap12q05h9kQwYQTHnwQ0WqAWFsjT6jMJJbn6p1Ot6jlBEjz97m\nqWQ/\n",
+    "iv": "SiuXE2f0aHt5GypO6lfYyA==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
 }

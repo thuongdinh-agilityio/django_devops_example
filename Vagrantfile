@@ -32,6 +32,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 		chef.data_bags_path = "chef_files/data_bags"
 		chef.environment = "dev"
 
+		chef.encrypted_data_bag_secret_key_path = "chef_files/.chef/encrypted_data_bag_secret"
+
 		# Updates system & install chef-dk software so that we can
 		# develop and test chef recipes in this box.
 		chef.add_role "allin"

@@ -1,0 +1,15 @@
+{
+  "id": "aws_access_key",
+  "KEY": {
+    "encrypted_data": "eXRTKLKlBRFoLueWHc2LobADYeXyrZXWJoBgOxEeerKpCgUvO8bV5iS7l/lO\nRVHT\n",
+    "iv": "HAionxkpvVmFIe1bb1Wjrw==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "VALUE": {
+    "encrypted_data": "tuZfmpzJS1Sfw9kF908MdbR0jfumVHJfPhf+QJutswEP7FQJYIwBS0tdnJgK\n5gre\n",
+    "iv": "OLOjvgPzKWX83o4TWpFUrg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}
