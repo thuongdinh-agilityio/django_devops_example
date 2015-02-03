@@ -237,6 +237,8 @@ def copy_needed_files():
 
     # Copy encrype chef file to default secrect file on server
     if env.get("encrypted_data_bag_secret_key_path", None):
+        if not exists("/etc/chef"):
+            sudo('mkdir /etc/chef')
         put(env.encrypted_data_bag_secret_key_path, "/etc/chef/encrypted_data_bag_secret", mode=0600)
 
 
